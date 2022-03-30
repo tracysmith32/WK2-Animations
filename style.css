@@ -1,0 +1,27 @@
+.square {
+  width: 300px;
+  height: 100px;
+  background-color: purple;
+  /* transition: width 5s ease;
+  transition-timing-function: ease; */
+  animation-name: button;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes button {
+  0% {
+    background-color: chartreuse;
+    box-shadow: 6px 6px 0 darkgray;
+    margin-left: 500px;
+  }
+  50% {
+    background-color: crimson;
+    box-shadow: 6px 6px 0 darkslategray;
+    margin-top: 500px;
+  }
+  100% {
+    background-color: aqua;
+    box-shadow: 6px 6px 0 black;
+  }
+}
